@@ -1,0 +1,9 @@
+.background-image {
+  background-size: contain;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1;
+}

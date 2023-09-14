@@ -1,0 +1,7 @@
+.services h1 {
+  border-bottom: 2px #e6ff00 solid;
+  width: fit-content;
+}
+.services h3 {
+  color: rgb(181, 178, 178);
+}

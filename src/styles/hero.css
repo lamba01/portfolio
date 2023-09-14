@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  height: 90vh;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.image {
+  width: 100%;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  width: 100%;
+  justify-content: center;
+  border-bottom: 1px gray solid;
+  padding: 40px 0px;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+.contact a {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.contact span {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 20px;
+}
+.img {
+  width: 100%;
+}
+.text span {
+  font-size: 18px;
+}
+.text h1,
+.text p {
+  font-size: 44px;
+}
+.text p em {
+  color: #e6ff00;
+  font-weight: 700;
+}
