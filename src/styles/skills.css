@@ -1,0 +1,57 @@
+.skill h1 {
+  margin: 50px 0px;
+}
+.skills {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.design,
+.coding {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.design h1,
+.coding h1 {
+  writing-mode: vertical-rl;
+  transform: rotate(360deg);
+  white-space: nowrap;
+  font-size: 25px;
+  color: rgb(115, 111, 111);
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+.completion {
+  background-color: rgb(181, 178, 178);
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+}
+.progress {
+  height: 100%;
+  width: 60%;
+  background-color: #e6ff00;
+}
+.design-container,
+.coding-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.coding-container div h5,
+.design-container div h5 {
+  margin: 10px 0px;
+  align-content: center;
+}
+.percentage-container {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.percentage-container div {
+  display: inline-flex;
+  align-items: center;
+}
