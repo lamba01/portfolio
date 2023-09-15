@@ -1,7 +1,16 @@
+.services {
+  margin-top: 50px;
+}
 .services h1 {
   border-bottom: 2px #e6ff00 solid;
   width: fit-content;
+  margin-bottom: 50px;
 }
 .services h3 {
   color: rgb(181, 178, 178);
+}
+.list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 50px;
 }
