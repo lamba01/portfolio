@@ -1,5 +1,10 @@
+.skill {
+  margin-top: 100px;
+}
 .skill h1 {
-  margin: 50px 0px;
+  margin-bottom: 50px;
+  border-bottom: 2px #e6ff00 solid;
+  width: fit-content;
 }
 .skills {
   display: flex;
@@ -9,7 +14,8 @@
 .design,
 .coding {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  /* justify-content: flex-start; */
   width: 100%;
 }
 .design h1,
@@ -21,6 +27,7 @@
   color: rgb(115, 111, 111);
   text-transform: uppercase;
   letter-spacing: 10px;
+  margin-right: 10px;
 }
 .completion {
   background-color: rgb(181, 178, 178);
