@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/navigation.css'
-import { FaBars, FaTimes,  } from 'react-icons/fa'
+import { FaBars, FaTimes } from 'react-icons/fa'
 function Navigation() {
   const [isLinksVisible, setIsLinksVisible] = useState(false);
 

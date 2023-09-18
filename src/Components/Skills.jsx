@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/skills.css"
-import {FaFigma, FaHtml5, FaCss3Alt, FaBootstrap, FaReact} from "react-icons/fa"
-import {DiPhotoshop} from "react-icons/di"
-import {SiJavascript} from "react-icons/si"
+import { FaFigma, FaHtml5, FaCss3Alt, FaBootstrap, FaReact } from "react-icons/fa"
+import { DiPhotoshop } from "react-icons/di"
+import { SiJavascript } from "react-icons/si"
 
 function Skills() {
     return (

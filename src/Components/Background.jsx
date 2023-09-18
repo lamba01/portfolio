@@ -5,7 +5,7 @@ import backgroundImage from "../images/peakpx.jpg"
 
 function Background() {
     return (
-        <div className={`background-image`} 
+        <div className='background-image' 
         style={{  backgroundImage: `url(${backgroundImage})` }}>            
         </div>
     )

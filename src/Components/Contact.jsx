@@ -3,10 +3,9 @@
 
 import React, { useState, useEffect } from 'react';
 import "../styles/contact.css";
-// import { FiMail, FiPhone } from 'react-icons/fi';
 import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiFrontendmentor } from 'react-icons/si';
-import {RiWhatsappFill} from 'react-icons/ri'
+import { RiWhatsappFill } from 'react-icons/ri'
 
 function Contact() {
   const [activeName, setActiveName] = useState('Twitter'); // Set the default name here

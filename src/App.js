@@ -9,7 +9,6 @@ import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Background from "./Components/Background";
 import Topnav from "./Components/Navigation";
-
 import "./App.css";
 
 function App() {

@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles/services.css"
-import {CgWebsite} from "react-icons/cg"
-import {AiFillAppstore} from "react-icons/ai"
-import {TbSeo} from "react-icons/tb"
-import {BiLogoShopify} from "react-icons/bi"
-import {PiCodeSimpleThin} from "react-icons/pi"
-import {SiCraftcms} from "react-icons/si"
+import { CgWebsite } from "react-icons/cg"
+import { AiFillAppstore } from "react-icons/ai"
+import { TbSeo } from "react-icons/tb"
+import { BiLogoShopify } from "react-icons/bi"
+import { PiCodeSimpleThin } from "react-icons/pi"
+import { SiCraftcms } from "react-icons/si"
 function Services() {
     return (
         <section className="services">

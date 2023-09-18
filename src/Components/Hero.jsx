@@ -1,7 +1,7 @@
 import React from "react";
-import {FaWhatsapp} from 'react-icons/fa'
-import {FiMail} from 'react-icons/fi'
-import {FaLocationDot} from 'react-icons/fa6'
+import { FaWhatsapp } from 'react-icons/fa'
+import { FiMail } from 'react-icons/fi'
+import { FaLocationDot } from 'react-icons/fa6'
 import '../styles/hero.css';
 import backgroundImage from "../images/hero-bckgrd.png"
 function Hero() {
