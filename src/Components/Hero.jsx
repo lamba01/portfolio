@@ -3,7 +3,7 @@ import {FaWhatsapp} from 'react-icons/fa'
 import {FiMail} from 'react-icons/fi'
 import {FaLocationDot} from 'react-icons/fa6'
 import '../styles/hero.css';
-import backgroundImage from "../images/hero-background.jpg"
+import backgroundImage from "../images/hero-bckgrd.png"
 function Hero() {
     return (
             <section className="hero">
@@ -15,9 +15,9 @@ function Hero() {
                 <p>I am a <em>Web Developer</em> </p>
                 </div>
                 <div className="contact">
-                    <a href="https://wa.me/2348166009368"><FaWhatsapp color="#e6ff00" size={'1em'} /><span>whatsapp</span></a>
-                    <a href="mailto:moyinooluwafemi2004@gmail.com"><FiMail color="#e6ff00" size={'1em'} /><span>Gmail</span></a>
-                    <span><FaLocationDot color="#e6ff00" size={'1em'} />Lagos, Nigeria</span>
+                    <a href="https://wa.me/2348166009368"><FaWhatsapp color="#e6ff00" size={'2em'} /><span>whatsapp</span></a>
+                    <a href="mailto:moyinooluwafemi2004@gmail.com"><FiMail color="#e6ff00" size={'2em'} /><span>Gmail</span></a>
+                    <span><FaLocationDot color="#e6ff00" size={'2em'} />Lagos, Nigeria</span>
                 </div>   
                 </div>               
             </section>

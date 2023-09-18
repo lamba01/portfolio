@@ -69,3 +69,16 @@
 .description p {
   color: rgb(181, 178, 178);
 }
+
+@media only screen and (max-device-width: 768px) {
+  .portfolio {
+    row-gap: 30px;
+    column-gap: 10px;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  .portfolio {
+    align-items: center;
+    justify-content: center;
+  }
+}

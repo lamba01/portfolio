@@ -3,9 +3,16 @@
   width: 80%;
   z-index: 22;
   color: white;
-  background-color: black;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin: auto;
   margin-top: 70px;
   padding: 0 40px;
   font-family: "Poppins", sans-serif;
+}
+@media only screen and (max-device-width: 767px) {
+  .App {
+    width: 75%;
+  }
 }

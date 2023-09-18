@@ -81,3 +81,9 @@
   margin: 0 10px;
   cursor: pointer;
 }
+
+@media only screen and (max-device-width: 1024px) {
+  .social {
+    display: block;
+  }
+}
