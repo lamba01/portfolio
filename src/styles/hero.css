@@ -33,6 +33,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 10px;
 }
 .contact a {
   text-decoration: none;
@@ -43,7 +44,6 @@
 .contact span {
   color: #ffffff;
   text-decoration: none;
-  margin: 10px;
   font-size: 20px;
   display: inline-flex;
   align-items: center;
@@ -90,5 +90,15 @@
   .text h1,
   .text p {
     font-size: 28px;
+  }
+}
+@media only screen and (max-width: 539px) {
+  .contact {
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+  .contact a,
+  .contact span {
+    margin-top: 10px;
   }
 }

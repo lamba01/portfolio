@@ -16,7 +16,7 @@ function Contact() {
 
   useEffect(() => {
     // Set the default name when the component mounts
-    setActiveName('Twitter'); // Change this to the desired default name
+    setActiveName('Twitter');
   }, []);
 
   return (
