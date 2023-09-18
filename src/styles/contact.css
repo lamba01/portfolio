@@ -1,0 +1,83 @@
+.contact-section {
+  margin-top: 100px;
+  padding-bottom: 30px;
+  display: block;
+}
+.header {
+  margin-bottom: 20px;
+  border-bottom: 2px #e6ff00 solid;
+  width: fit-content;
+}
+.icon {
+  border: 1px solid rgb(181, 178, 178);
+  border-radius: 50%;
+  padding: 10px;
+}
+.contacts {
+  margin: 20px 0;
+  display: flex;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+}
+.phone,
+.mail {
+  display: flex;
+  align-items: center;
+}
+.phone:hover .icon,
+.mail:hover .icon {
+  border: 1.2px solid #e6ff00;
+}
+.phone a,
+.mail a {
+  color: rgb(181, 178, 178);
+  text-decoration: none;
+}
+.social-media-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+}
+
+.social-media-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-media-link:hover {
+  transform: scale(1.2);
+}
+
+.social-media-name {
+  display: none;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.social-media-name.active {
+  display: block;
+  padding-left: 5px;
+}
+.socials {
+  display: flex;
+}
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social-item {
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+}

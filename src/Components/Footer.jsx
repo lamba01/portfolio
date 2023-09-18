@@ -1,14 +1,30 @@
-function Footer() {
-    return (
-      <footer>
-        <p>&copy; 2023 [Your Name]. All rights reserved.</p>
-        <div className="social-links">
-          <a href="#">LinkedIn</a>
-          <a href="#">GitHub</a>
-          {/* Add more social media links */}
-        </div>
-      </footer>
-    );
-  }
+  
+import React, { useState, useEffect } from 'react';
+import "../styles/footer.css";
+import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { SiFrontendmentor } from 'react-icons/si';
 
-  export default Footer;
+function Footer() {
+  const [activeName, setActiveName] = useState('Twitter'); // Set the default name here
+
+  const handleMouseEnter = (name) => {
+    setActiveName(name);
+  };
+
+  useEffect(() => {
+    // Set the default name when the component mounts
+    setActiveName('Twitter'); // Change this to the desired default name
+  }, []);
+
+  return (
+    <footer>
+      <p>&copy; 2023. Developed by John. All rights reserved</p>
+     
+      </footer>
+  );
+}
+
+export default Footer;
+
+
+

@@ -4,7 +4,8 @@
   z-index: 22;
   color: white;
   background-color: black;
-  margin: 70px auto;
+  margin: auto;
+  margin-top: 70px;
   padding: 0 40px;
   font-family: "Poppins", sans-serif;
 }

@@ -8,6 +8,7 @@
 }
 .skills {
   display: flex;
+  flex-wrap: nowrap;
   width: 100%;
   gap: 20px;
 }
@@ -15,7 +16,6 @@
 .coding {
   display: flex;
   align-items: flex-start;
-  /* justify-content: flex-start; */
   width: 100%;
 }
 .design h1,
@@ -39,6 +39,7 @@
   height: 100%;
   width: 60%;
   background-color: #e6ff00;
+  border-radius: 5px;
 }
 .design-container,
 .coding-container {

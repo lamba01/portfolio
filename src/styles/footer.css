@@ -1,0 +1,10 @@
+footer {
+  position: relative;
+  width: 80%;
+  z-index: 22;
+  color: white;
+  background-color: black;
+  margin: 5px auto;
+  padding: 20px 40px;
+  text-align: center;
+}

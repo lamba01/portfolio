@@ -66,3 +66,6 @@
   opacity: 1; /* Show the text on hover */
   transform: translateY(0); /* Move the text back to its original position */
 }
+.description p {
+  color: rgb(181, 178, 178);
+}
