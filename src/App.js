@@ -15,8 +15,8 @@ function App() {
   return (
     <div>
       <Background />
+      <Topnav />
       <div className="App">
-        <Topnav />
         <Hero />
         <About />
         <Services />

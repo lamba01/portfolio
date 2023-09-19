@@ -1,15 +1,20 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { FaWhatsapp } from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi';
 import { FaLocationDot } from 'react-icons/fa6';
 import '../styles/hero.css';
 import backgroundImage from "../images/hero-bckgrd.png";
 import 'animate.css'; // Import Animate.css
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Typewriter from "typewriter-effect";
 
 function Hero() {
+    useEffect(() => {
+        AOS.init(); // Initialize AOS
+      }, []);
   return (
-    <section className="hero animate__animated animate__slideInLeft">
+    <section className="hero" data-aos="fade-up">
       <div className="image"><img src={backgroundImage} className="img" alt="" /></div>  
       <div className="top">          
         <div className="text">

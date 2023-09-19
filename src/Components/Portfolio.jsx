@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../styles/portfolio.css'; 
 import project1 from '../images/project1.jpg';
 import project2 from '../images/project2.png';
@@ -6,6 +6,8 @@ import project3 from '../images/project3.jpg';
 import project4 from '../images/project4.jpg';
 import project5 from '../images/project5.jpg';
 import project6 from '../images/project6.jpg';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const projects = [
   {
@@ -57,10 +59,13 @@ function Portfolio() {
     // Open the project URL in a new tab when the image is clicked
     window.open(projectUrl, '_blank');
   };
+  useEffect(() => {
+    AOS.init(); // Initialize AOS
+  }, []);
   return (
     <section className='port'>
       <h1>Portfolio</h1>
-      <div className="portfolio">
+      <div className="portfolio" data-aos="fade-up" data-aos-duration="3000">
         {projects.map((project) => (
           <div className="project-item" key={project.id} onClick={() => handleClick(project.projectUrl)}>
             <img src={project.imageSrc} alt={project.title} />

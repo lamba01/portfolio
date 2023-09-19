@@ -1,9 +1,14 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "../styles/about.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function About() {
+  useEffect(() => {
+    AOS.init(); // Initialize AOS
+  }, []);
     return (
       <section className="about">
-      <p>I'm a passionate web developer specializing in crafting immersive online experiences.
+      <p data-aos="zoom-in-down" data-aos-easing="ease-in-sine">I'm a passionate web developer specializing in crafting immersive online experiences.
          With a solid foundation in HTML, CSS, and JavaScript, I bring ideas to life by designing and building 
          captivating websites and web applications. My goal is to create digital spaces that not only look great 
          but also function seamlessly. <br />

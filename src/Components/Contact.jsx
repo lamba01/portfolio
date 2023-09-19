@@ -1,11 +1,10 @@
-
-
-
 import React, { useState, useEffect } from 'react';
 import "../styles/contact.css";
 import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiFrontendmentor } from 'react-icons/si';
 import { RiWhatsappFill } from 'react-icons/ri'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Contact() {
   const [activeName, setActiveName] = useState('Twitter'); // Set the default name here
@@ -19,8 +18,12 @@ function Contact() {
     setActiveName('Twitter');
   }, []);
 
+  useEffect(() => {
+    AOS.init(); // Initialize AOS
+  }, []);
+
   return (
-    <section className="contact-section">
+    <section className="contact-section" data-aos="zoom-in-up">
       <h1 className="header">Get in touch</h1>
       <p>Feel free to reach out to me with any inquiries, collaboration opportunities, or just to say hello.
         I'm always excited to connect with fellow developers, designers, and tech enthusiasts.
