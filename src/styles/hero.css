@@ -59,9 +59,13 @@
 .text p {
   font-size: 44px;
 }
-.text p em {
+.text p span {
   color: #e6ff00;
+  font-size: 44px;
   font-weight: 700;
+  display: inline-flex;
+  flex-direction: row;
+  white-space: nowrap;
 }
 
 @media only screen and (max-device-width: 1024px) and (min-height: 601px) {
