@@ -11,17 +11,17 @@
 }
 .list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: auto auto auto;
   gap: 20px;
 }
 
 @media only screen and (max-device-width: 1023px) {
   .list {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto auto;
   }
 }
 @media only screen and (max-device-width: 767px) {
   .list {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: auto;
   }
 }

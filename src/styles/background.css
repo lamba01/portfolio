@@ -1,5 +1,8 @@
 .background-image {
-  background-size: contain;
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/pexels-sohail-nachiti-807598.jpg);
   height: 100vh;
   position: fixed;
   top: 0;

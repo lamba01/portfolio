@@ -16,13 +16,13 @@ function Services() {
     return (
         <section className="services">
             <h1 data-aos="fade-right">What i do</h1>
-            <div className="list">
-                <div data-aos="fade-left"><CgWebsite size={"2em"}/><h3>Website Development</h3></div>
-                <div data-aos="fade-left"><AiFillAppstore size={"2em"}/><h3>Web Application Development</h3></div>
-                <div data-aos="fade-left"><TbSeo size={"2em"}/><h3>SEO Optimization</h3></div>
-                <div data-aos="fade-left"><BiLogoShopify size={"2em"}/><h3> E-Commerce Development</h3></div>
-                <div data-aos="fade-left"><PiCodeSimpleThin size={"2em"}/><h3> Website Redesign</h3></div>
-                <div data-aos="fade-left"><SiCraftcms size={"2em"}/><h3>Content Management Systems (CMS)</h3></div>
+            <div className="list" data-aos="fade-right">
+            <div><CgWebsite size={"1em"}/><h3>Website Development</h3></div>
+                <div><AiFillAppstore size={"1em"}/><h3>Web Application Development</h3></div>
+                <div><TbSeo size={"1em"}/><h3>SEO Optimization</h3></div>
+                <div><BiLogoShopify size={"1em"}/><h3> E-Commerce Development</h3></div>
+                <div><PiCodeSimpleThin size={"1em"}/><h3> Website Redesign</h3></div>
+                <div><SiCraftcms size={"1em"}/><h3>Content Management Systems (CMS)</h3></div>
             </div>
         </section>
     )

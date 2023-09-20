@@ -4,7 +4,6 @@ import { FiMail } from 'react-icons/fi';
 import { FaLocationDot } from 'react-icons/fa6';
 import '../styles/hero.css';
 import backgroundImage from "../images/hero-bckgrd.png";
-import 'animate.css'; // Import Animate.css
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Typewriter from "typewriter-effect";
@@ -14,19 +13,23 @@ function Hero() {
         AOS.init(); // Initialize AOS
       }, []);
   return (
-    <section className="hero" data-aos="fade-up">
+    <section className="hero" >
       <div className="image"><img src={backgroundImage} className="img" alt="" /></div>  
       <div className="top">          
         <div className="text">
           <span>Hello Everyone,</span> 
           <h1>I'm John Oluwafemi</h1>
-          <p>I am a {"  "}  <span><Typewriter options={{
+          <h2>I am a{" "}
+          <span className="typewriter-wrapper">
+          <Typewriter options={{
             strings: ["Designer", "Developer"], // An array of strings to type
             autoStart: true, // Automatically start the typewriter
             loop: true, // Loop the animation
           }}
-          /></span>
-    </p>
+          />
+          </span>
+          </h2>
+
         </div>
         <div className="contact">
           <a href="https://wa.me/2348166009368"><FaWhatsapp color="#e6ff00" size={'2em'}  /><span>whatsapp</span></a>

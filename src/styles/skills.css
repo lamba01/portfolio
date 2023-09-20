@@ -1,5 +1,6 @@
 .skill {
   margin-top: 100px;
+  width: 100%;
 }
 .skill h1 {
   margin-bottom: 50px;
@@ -69,3 +70,13 @@
     display: block;
   }
 }
+/* @media only screen and (max-device-width: 539px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .coding-container div {
+    width: 100%;
+  }
+} */
