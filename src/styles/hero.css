@@ -93,6 +93,7 @@
   }
   .text h1,
   .text h2,
+  .text h2 span,
   .text p {
     font-size: 28px;
   }
