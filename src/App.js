@@ -9,14 +9,15 @@ import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Background from "./Components/Background";
 import Topnav from "./Components/Navigation";
+import DownloadButton from "./Components/Download";
 import "./App.css";
 
 function App() {
   return (
     <div>
       <Background />
+      <Topnav />
       <div className="App">
-        <Topnav />
         <Hero />
         <About />
         <Services />
@@ -24,6 +25,7 @@ function App() {
         <Portfolio />
         <Contact />
       </div>
+      <DownloadButton />
       <Footer />
     </div>
   );

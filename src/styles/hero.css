@@ -78,6 +78,8 @@
 }
 @media only screen and (max-device-width: 1023px) {
   .text h1,
+  .text h2,
+  .text h2 span,
   .text p {
     font-size: 32px;
   }
