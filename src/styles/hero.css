@@ -103,7 +103,7 @@
     flex-direction: column;
   }
   .contact a,
-  .contact span {
+  .location {
     display: flex;
     align-items: center;
     margin-top: 20px;

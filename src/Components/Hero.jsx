@@ -34,7 +34,7 @@ function Hero() {
         <div className="contact">
           <a href="https://wa.me/2348166009368"><FaWhatsapp color="#e6ff00" size={'2em'}  /><span>whatsapp</span></a>
           <a href="mailto:moyinooluwafemi2004@gmail.com"><FiMail color="#e6ff00" size={'2em'} /><span>Gmail</span></a>
-          <span><FaLocationDot color="#e6ff00" size={'2em'} />Lagos, Nigeria</span>
+          <span className="location"><FaLocationDot color="#e6ff00" size={'2em'} />Lagos, Nigeria</span>
         </div>   
       </div>               
     </section>
