@@ -104,7 +104,9 @@
   }
   .contact a,
   .contact span {
-    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
   }
   .text h2 span {
     font-size: 28px;

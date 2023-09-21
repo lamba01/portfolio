@@ -16,7 +16,7 @@ function App() {
     <div>
       <Background />
       <div className="App">
-        {<Topnav />}
+        <Topnav />
         <Hero />
         <About />
         <Services />
