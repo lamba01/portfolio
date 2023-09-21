@@ -16,7 +16,7 @@ import React, {useState} from "react";
 import {MdDownloading} from "react-icons/md"
 // import { FiDownload } from "react-icons/fi";
 import "../styles/download.css";
-import CV from "../Assets/CV.txt"
+import CV from "../Assets/CV.pdf"
 
 
 function DownloadButton() {
@@ -25,7 +25,7 @@ function DownloadButton() {
         const resumeUrl = CV; // Replace with your resume's actual URL
         const link = document.createElement("a");
         link.href = resumeUrl;
-        link.download = "CV.txt";
+        link.download = "CV.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

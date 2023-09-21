@@ -1,7 +1,7 @@
 .topnav {
   position: fixed;
   right: 10%;
-  top: 10%;
+  top: 15%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -81,6 +81,16 @@ button {
   background-color: rgba(0, 0, 0, 0.671);
   z-index: -1;
   transition: background-color 5s ease-in-out;
+}
+@media only screen and (max-device-width: 1024px) and (min-height: 601px) {
+  .topnav {
+    top: 10%;
+  }
+}
+@media only screen and (max-device-width: 1023px) {
+  .topnav {
+    top: 10%;
+  }
 }
 @media only screen and (max-width: 767px) {
   .topnav {
