@@ -1,14 +1,14 @@
-import React, {useEffect} from "react";
+import React, { useEffect, forwardRef } from "react";
 import "../styles/about.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-function About() {
+const About =  forwardRef((props, ref) => {
   useEffect(() => {
     AOS.init(); // Initialize AOS
   }, []);
     return (
   
-  <section className="about" data-aos="zoom-in-down" data-aos-easing="ease-in-sine">
+  <section className="about" ref={ref} data-aos="zoom-in-down" data-aos-easing="ease-in-sine">
       <p>I'm a passionate web developer specializing in crafting immersive online experiences.
          With a solid foundation in JavaScript, I bring ideas to life by designing and building 
          captivating websites and web applications. My goal is to create digital spaces that not only look great 
@@ -19,5 +19,6 @@ function About() {
       </p>
   </section>
     );
-  }
+  });
+
 export default About;  

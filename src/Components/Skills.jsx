@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, {useEffect, forwardRef} from "react";
 import "../styles/skills.css"
 import { FaFigma, FaHtml5, FaCss3Alt, FaBootstrap, FaReact } from "react-icons/fa"
 import { DiPhotoshop } from "react-icons/di"
@@ -6,12 +6,12 @@ import { SiJavascript } from "react-icons/si"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-function Skills() {
+const Skills = forwardRef((props, ref) => {
     useEffect(() => {
         AOS.init(); // Initialize AOS
       }, []);
     return (
-        <section className="skill">
+        <section className="skill" ref={ref}>
             <h1 data-aos="fade-up">My Skills</h1>
             <div className="skills">
             <div className="design" data-aos= "fade-right"><h1>Design</h1>
@@ -55,6 +55,6 @@ function Skills() {
             </div> 
         </section>
     )
-}
+});
 
 export default Skills

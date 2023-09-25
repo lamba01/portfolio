@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect, forwardRef } from "react";
 import "../styles/services.css"
 import { CgWebsite } from "react-icons/cg"
 import { AiFillAppstore } from "react-icons/ai"
@@ -9,12 +9,12 @@ import { SiCraftcms } from "react-icons/si"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-function Services() {
+const Services = forwardRef((props, ref) => {
     useEffect(() => {
         AOS.init(); // Initialize AOS
       }, []);
     return (
-        <section className="services">
+        <section className="services" ref={ref}>
             <h1 data-aos="fade-right">What i do</h1>
             <div className="list" data-aos="fade-right">
             <div><CgWebsite size={"2em"}/><h3>Website Development</h3></div>
@@ -26,7 +26,7 @@ function Services() {
             </div>
         </section>
     )
-}
+});
 
 
 export default Services;

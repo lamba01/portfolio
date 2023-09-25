@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect, forwardRef } from 'react';
 import '../styles/portfolio.css'; 
 import project1 from '../images/project1.jpg';
 import project2 from '../images/project2.png';
@@ -54,7 +54,7 @@ const projects = [
   },
 ];
 
-function Portfolio() {
+const Portfolio = forwardRef((props, ref) => {
   const handleClick = (projectUrl) => {
     // Open the project URL in a new tab when the image is clicked
     window.open(projectUrl, '_blank');
@@ -63,7 +63,7 @@ function Portfolio() {
     AOS.init(); // Initialize AOS
   }, []);
   return (
-    <section className='port'>
+    <section className='port' ref={ref}>
       <h1>Portfolio</h1>
       <div className="portfolio" data-aos="fade-up" data-aos-duration="3000">
         {projects.map((project) => (
@@ -80,6 +80,5 @@ function Portfolio() {
       </div>
     </section>
   );
-}
-
+});
 export default Portfolio;
