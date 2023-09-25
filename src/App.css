@@ -14,7 +14,8 @@
   margin-top: 70px;
   padding: 0 40px;
   font-family: "Poppins", sans-serif;
-  /* overflow-y: hidden; */
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 @media only screen and (max-device-width: 767px) {
   .App {

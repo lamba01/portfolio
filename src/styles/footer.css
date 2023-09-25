@@ -8,3 +8,13 @@ footer {
   padding: 20px 40px;
   text-align: center;
 }
+@media only screen and (max-device-width: 767px) {
+  footer {
+    width: 75%;
+  }
+}
+@media only screen and (max-device-width: 539px) {
+  footer {
+    width: 70%;
+  }
+}

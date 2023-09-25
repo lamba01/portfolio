@@ -32,6 +32,7 @@
 .contact {
   display: flex;
   justify-content: space-between;
+  gap: 0.625rem;
   flex-wrap: wrap;
   margin-top: 10px;
 }

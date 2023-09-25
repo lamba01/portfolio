@@ -58,12 +58,11 @@
   width: 100%;
   display: inline-flex;
   align-items: center;
-  justify-content: space-between;
 }
-.percentage-container div {
+/* .percentage-container div {
   display: inline-flex;
   align-items: center;
-}
+} */
 
 @media only screen and (max-device-width: 767px) {
   .skills {
