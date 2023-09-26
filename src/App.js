@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Services from "./Components/Services";
@@ -9,9 +9,24 @@ import Footer from "./Components/Footer";
 import Background from "./Components/Background";
 import Topnav from "./Components/Navigation";
 import DownloadButton from "./Components/Download";
+import Loading from "./Components/Loading";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./App.css";
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false); // Set isLoading to false when your content is ready
+    }, 3000); // Simulated 3 seconds of loading time
+  }, []);
+
+  // Aos animations
+  useEffect(() => {
+    AOS.init(); // Initialize AOS
+  }, []);
+
   // Create and assign refs to each child component
   const aboutRef = useRef(null);
   const servicesRef = useRef(null);
@@ -28,25 +43,37 @@ function App() {
 
   return (
     <div>
-      <Background />
-      <Topnav
-        scrollToRef={scrollToRef}
-        aboutRef={aboutRef}
-        servicesRef={servicesRef}
-        skillsRef={skillsRef}
-        portfolioRef={portfolioRef}
-        contactRef={contactRef}
-      />
-      <div className="App">
-        <Hero />
-        <About ref={aboutRef} />
-        <Services ref={servicesRef} />
-        <Skills ref={skillsRef} />
-        <Portfolio ref={portfolioRef} />
-        <Contact ref={contactRef} />
-      </div>
-      <DownloadButton />
-      <Footer />
+      {isLoading ? (
+        <Loading />
+      ) : (
+        // Render your content when isLoading is false
+        <div>
+          <Background />
+          <Topnav
+            scrollToRef={scrollToRef}
+            aboutRef={aboutRef}
+            servicesRef={servicesRef}
+            skillsRef={skillsRef}
+            portfolioRef={portfolioRef}
+            contactRef={contactRef}
+          />
+          <div
+            className="App"
+            data-aos="zoom-out-down"
+            data-aos-duration="1200"
+            data-aos-easing="ease-in-sine"
+          >
+            <Hero />
+            <About ref={aboutRef} />
+            <Services ref={servicesRef} />
+            <Skills ref={skillsRef} />
+            <Portfolio ref={portfolioRef} />
+            <Contact ref={contactRef} />
+          </div>
+          <DownloadButton />
+          <Footer />
+        </div>
+      )}
     </div>
   );
 }
