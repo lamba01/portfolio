@@ -14,18 +14,17 @@
 
 import React, {useState} from "react";
 import {MdDownloading} from "react-icons/md"
-// import { FiDownload } from "react-icons/fi";
 import "../styles/download.css";
-import CV from "../Assets/CV.pdf"
+import CV from "../Assets/cv.rtf"
 
 
 function DownloadButton() {
     const [isRotated, setIsRotated] = useState(false);
     const handleDownload = () => {
-        const resumeUrl = CV; // Replace with your resume's actual URL
+        const resumeUrl = CV; 
         const link = document.createElement("a");
         link.href = resumeUrl;
-        link.download = "CV.pdf";
+        link.download = "cv.rtf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
