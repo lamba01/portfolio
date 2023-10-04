@@ -1,17 +1,3 @@
-// import React from "react";
-// import "../styles/download.css";
-
-// function DownloadButton() {
-//   return (
-//     <a className="l" href="/path-to-your-resume.pdf" download="your-resume.pdf">
-//       Download Resume<MdDownloading size={"2em"}/>
-//     </a>
-//   );
-// }
-
-// export default DownloadButton;
-
-
 import React, {useState} from "react";
 import {MdDownloading} from "react-icons/md"
 import "../styles/download.css";
