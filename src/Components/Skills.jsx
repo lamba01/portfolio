@@ -1,8 +1,9 @@
 import React, {useEffect, forwardRef} from "react";
 import "../styles/skills.css"
-import { FaFigma, FaHtml5, FaCss3Alt, FaBootstrap, FaReact } from "react-icons/fa"
+import { FaFigma, FaNodeJs, FaCss3Alt, FaBootstrap, FaReact } from "react-icons/fa"
 import { DiPhotoshop } from "react-icons/di"
 import { SiJavascript } from "react-icons/si"
+import { GrMysql } from "react-icons/gr";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -39,7 +40,7 @@ const Skills = forwardRef((props, ref) => {
                 <div className="completion"><div className="progress" ></div></div>
             </div>
             <div>
-                <div className="percentage-container"><FaHtml5 size={"15px"}/><h5>HTML5</h5></div>
+                <div className="percentage-container"><FaNodeJs size={"15px"}/><h5>Node.js</h5></div>
                 <div className="completion"><div className="progress" ></div></div>
             </div>
             <div>
@@ -47,6 +48,10 @@ const Skills = forwardRef((props, ref) => {
                 <div className="completion"><div className="progress" ></div></div>
             </div>
            <div> 
+                <div className="percentage-container">< GrMysql size={"15px"}/><h5>MySQL</h5></div>
+                <div className="completion"><div className="progress" ></div></div>
+            </div>
+            <div> 
                 <div className="percentage-container"><FaReact size={"15px"}/><h5>React</h5></div>
                 <div className="completion"><div className="progress" ></div></div>
             </div>
