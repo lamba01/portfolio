@@ -34,7 +34,7 @@ const Contact = forwardRef((props, ref) => {
         I'm always excited to connect with fellow developers, designers, and tech enthusiasts.
         Whether you have a project in mind or simply want to chat about the latest trends in web development,
         I'm here to listen and engage. Don't hesitate to drop me a message, and I'll get back to you as soon as
-        possible.</p>
+        possible.💻🚀</p>
 
       <div className="social">
         <h3>Visit my social profiles and get connected</h3>
