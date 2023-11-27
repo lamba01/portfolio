@@ -18,7 +18,7 @@ function DownloadButton() {
         setIsRotated(true); 
       };
       return (
-        <div  className={`download-button ${isRotated ? "rotated" : ""}`} onClick={handleDownload}>
+        <div  className={`download-button ${isRotated ? "rotated" : ""}`} onClick={handleDownload} title="Download cv">
           <MdDownloading size={"2em"} /> 
         </div>
       );
