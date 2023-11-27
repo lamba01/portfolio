@@ -29,6 +29,7 @@
 .project-item .description {
   color: #ffffff;
   text-align: center;
+  padding: 5px;
 }
 .desc {
   font-size: 12px;
