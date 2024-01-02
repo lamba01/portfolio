@@ -1,7 +1,7 @@
 import React, { useEffect, forwardRef } from 'react';
 import '../styles/portfolio.css'; 
 import project1 from '../images/project1.jpg';
-import project2 from '../images/project2.png';
+import project2 from '../images/TaskM.webp';
 import project3 from '../images/project3.jpg';
 import project4 from '../images/project4.jpg';
 import project5 from '../images/project5.jpg';
@@ -21,11 +21,11 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Countries API',
+    title: 'Task Management App',
     imageSrc: project2,
-    description: 'Created an interactive web application using React and Axios to fetch data from a countries API. Users can explore information about different countries, including details like population, languages, and currencies, enhancing their understanding of global demographics.',
-    projectUrl: 'https://countriesapppr.netlify.app/',
-    projectSource: 'https://github.com/lamba01/Rest-api-countries-app',
+    description: 'Crafting smooth task management experiences from start to finish, my full-stack application, with features like real-time updates and dynamic user authentication, this task management app ensures efficient organization, empowering teams to achieve their goals with ease.',
+    projectUrl: 'https://task-managementapp-client.vercel.app',
+    projectSource: 'https://github.com/lamba01/Task-Management-App',
   },
   {
     id: 3,
