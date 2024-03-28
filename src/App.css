@@ -4,14 +4,14 @@
 }
 .App {
   position: relative;
-  width: 90%;
+  width: 100%;
   z-index: 22;
   color: white;
   background: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin: auto;
-  padding: 0 40px;
+  /* padding: 0 100px; */
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
   overflow-y: hidden;
