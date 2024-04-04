@@ -1,6 +1,6 @@
 import React, { useEffect, forwardRef } from 'react';
 import '../styles/portfolio.css'; 
-import project1 from '../images/project1.jpg';
+import project1 from '../images/imagehubb.png';
 import project2 from '../images/TaskM.webp';
 import project3 from '../images/project3.jpg';
 import project4 from '../images/project4.jpg';
@@ -13,11 +13,11 @@ import { FaGithub } from "react-icons/fa";
 const projects = [
   {
     id: 1,
-    title: 'E-commerce product page',
+    title: 'ImageHub',
     imageSrc: project1,
-    description: 'Developed a responsive single-page E-commerce product page. Implemented features include product details, images, and a seamless user interface for an enhanced shopping experience.',
-    projectUrl: 'https://commerceproduct-pages.netlify.app/',
-    projectSource: 'https://github.com/lamba01/E-Commerce-App',
+    description: 'Dive into a curated collection of stunning images, meticulously organized for your inspiration and convenience. Explore diverse categories, discover captivating visuals, and elevate your projects with ease. With ImageHub, unleash your creativity and unlock a world of endless possibilities.',
+    projectUrl: 'https://imagehubb.vercel.app/',
+    projectSource: 'https://github.com/lamba01/Unsplash-App',
   },
   {
     id: 2,
