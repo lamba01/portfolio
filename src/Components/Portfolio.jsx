@@ -45,11 +45,11 @@ const projects = [
   },
   {
     id: 5,
-    title: 'REST Countries API', 
+    title: 'Manage Landing Page', 
     imageSrc: project5,
-    description: 'Created a dynamic web application that leverages the REST Countries API to provide users with detailed information about countries. The application features search functionality and region filters, enabling users to explore and learn more about countries around the world.', 
-    projectUrl: 'https://countrysapis.netlify.app/',
-    projectSource: 'https://github.com/lamba01/Rest-countries',
+    description: 'A sleek and responsive landing page built with React, Slick Carousel, and Material-UI to showcase my expertise with interactive and reusable components.', 
+    projectUrl: 'https://managelandingpager.netlify.app/',
+    projectSource: 'https://github.com/lamba01/Manage-Landing-Page',
   },
   {
     id: 6,

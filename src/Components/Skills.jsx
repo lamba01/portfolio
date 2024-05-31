@@ -25,6 +25,10 @@ const Skills = forwardRef((props, ref) => {
             <div className="percentage-container"><DiPhotoshop size={"15px"}/><h5>Photoshop</h5></div>
                 <div className="completion"><div className="progress" ></div></div>
             </div>
+            <div className="photoshop">
+            <div className="percentage-container"><DiPhotoshop size={"15px"}/><h5>Material UI</h5></div>
+                <div className="completion"><div className="progress" ></div></div>
+            </div>
             </div>
             </div>
             
