@@ -15,8 +15,8 @@ My game? My expertise goes beyond coding - it's about crafting solutions that re
 <br />
 For the Frontend - <strong style={{ color: "white" }}>React.js</strong><br />
 for the Backend - <strong style={{ color: "white" }}>Node.js</strong><br />
-my go-to database - <strong style={{ color: "white" }}>MySQL</strong><br />
-for creative designs - <strong style={{ color: "white" }}>Bootstrap, CSS5, Tailwind css, Material UI.</strong>
+my go-to database - <strong style={{ color: "white" }}>MySQL, MongoDB</strong><br />
+for creative designs - <strong style={{ color: "white" }}>CSS5, Tailwind css, Material UI.</strong>
 </p>
   </section>
     );

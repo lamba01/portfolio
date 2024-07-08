@@ -55,7 +55,7 @@ const projects = [
     id: 6,
     title: 'E-Commerce Site', 
     imageSrc: project6,
-    description: 'This Project seamlessly integrates user-friendly interfaces with powerful server-side functionalities. Users are welcomed to a world where seamless navigation, captivating product displays, and frictionless checkout processes redefine the standards of online shopping.', 
+    description: 'This Project integrates user-friendly interfaces with powerful server-side functionalities. Users are welcomed to a world where seamless navigation, captivating product displays, and checkout processes redefine the standards of online shopping.', 
     projectUrl: 'https://commeercee.vercel.app',
     projectSource: 'https://github.com/lamba01/App',
   },
