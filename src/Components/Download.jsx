@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {MdDownloading} from "react-icons/md"
 import "../styles/download.css";
-import CV from "../Assets/MyCV.pdf"
+import CV from "../Assets/Oluwafemi.pdf"
 
 
 function DownloadButton() {
@@ -10,7 +10,7 @@ function DownloadButton() {
         const resumeUrl = CV; 
         const link = document.createElement("a");
         link.href = resumeUrl;
-        link.download = "MyCV.pdf";
+        link.download = "Oluwafemi.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
