@@ -4,7 +4,7 @@ import { FaFigma, FaNodeJs, FaCss3Alt, FaReact } from "react-icons/fa"
 import { DiPhotoshop } from "react-icons/di"
 import { SiJavascript } from "react-icons/si"
 import { GrMysql } from "react-icons/gr";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { SiTailwindcss } from "react-icons/si";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -49,7 +49,7 @@ const Skills = forwardRef((props, ref) => {
                 <div className="completion"><div className="progress" ></div></div>
             </div>
             <div>
-                <div className="percentage-container"><RiTailwindCssFill size={"15px"}/><h5>Tailwind CSS</h5></div>
+                <div className="percentage-container"><SiTailwindcss size={"15px"}/><h5>Tailwind CSS</h5></div>
                 <div className="completion"><div className="progress" ></div></div>
             </div>
            <div> 
