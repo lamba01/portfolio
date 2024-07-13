@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {MdDownloading} from "react-icons/md"
 import "../styles/download.css";
-import CV from "../Assets/Oluwafemi.pdf"
+import CV from "../Assets/John's Resume.pdf"
 
 
 function DownloadButton() {
@@ -10,7 +10,7 @@ function DownloadButton() {
         const resumeUrl = CV; 
         const link = document.createElement("a");
         link.href = resumeUrl;
-        link.download = "Oluwafemi.pdf";
+        link.download = "John's Resume.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -21,6 +21,7 @@ function DownloadButton() {
         <div  className={`download-button ${isRotated ? "rotated" : ""}`} onClick={handleDownload} title="Download cv">
           <MdDownloading size={"2em"} /> 
         </div>
+
       );
 }
 
