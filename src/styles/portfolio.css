@@ -57,6 +57,7 @@
   background: none;
   position: absolute;
   bottom: 10px;
+  text-align: center;
 }
 .live-btn2 {
   right: 0;

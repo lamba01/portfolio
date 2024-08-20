@@ -29,17 +29,17 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Todo List App', 
+    title: 'EasyBank Landing Page', 
     imageSrc: project3,
-    description: 'Engineered a dynamic Todo List application using React and additional libraries for efficient task management. Implemented features such as task creation, deletion, and status tracking to provide users with a streamlined and organized task management experience.', 
-    projectUrl: 'https://todolapp.netlify.app/',
-    projectSource: 'https://github.com/lamba01/todo-app',
+    description: 'This project is a responsive and fully functional landing page developed using Next.js and Tailwind CSS. The landing page highlights my ability to implement responsive design principles and leverage the power of Next.js for optimized performance and fast load times.', 
+    projectUrl: 'https://easybank-landings-pages.vercel.app/',
+    projectSource: 'https://github.com/lamba01/Easybank-landing-page',
   },
   {
     id: 4,
     title: 'Rock, Paper, Scissors', 
     imageSrc: project4,
-    description: 'Developed an engaging Rock-Paper-Scissors game using JavaScript. The game allows users to play against the computer, showcasing a blend of logic and interactivity for an enjoyable gaming experience.', 
+    description: 'Developed an engaging Rock-Paper-Scissors game using  plain JavaScript. The game allows users to play against the computer, showcasing a blend of logic and interactivity for an enjoyable gaming experience.', 
     projectUrl: 'https://rpsgamers.netlify.app/',
     projectSource: 'https://github.com/lamba01/RPS',
   },
@@ -85,7 +85,7 @@ const Portfolio = forwardRef((props, ref) => {
                 <p className='desc'>{project.description}</p>
                 <div className="btns">
                 <button className='live-btn' onClick={() => handleClick(project.projectUrl)}>🔗 live site</button>
-                <button className='live-btn2' onClick={() => handleSource(project.projectSource)}><FaGithub /> view source code</button></div>
+                <button className='live-btn2' onClick={() => handleSource(project.projectSource)}><FaGithub style={{marginRight: '5px'}}/> view source code</button></div>
             </div>
           </div>
         ))}
