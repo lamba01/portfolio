@@ -19,7 +19,7 @@ function Hero() {
             <div className="top">          
                 <div className="text">
                     <span>Hello Everyone,</span> 
-                    <h1>I'm John Oluwafemi</h1>
+                    <h1>I'm John</h1>
                     <h2>I am a{" "}
                         <span className="typewriter-wrapper">
                             <Typewriter options={{

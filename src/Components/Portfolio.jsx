@@ -4,7 +4,7 @@ import project1 from '../images/imagehubb.png';
 import project2 from '../images/TaskM.webp';
 import project3 from '../images/project3.jpg';
 import project4 from '../images/project4.jpg';
-import project5 from '../images/project5.jpg';
+import project5 from '../images/project5.png';
 import project6 from '../images/project6.png';
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -45,11 +45,11 @@ const projects = [
   },
   {
     id: 5,
-    title: 'Manage Landing Page', 
+    title: 'cepher official site', 
     imageSrc: project5,
-    description: 'A sleek and responsive landing page built with React, Slick Carousel, and Material-UI to showcase my expertise with interactive and reusable components.', 
-    projectUrl: 'https://managelandingpager.netlify.app/',
-    projectSource: 'https://github.com/lamba01/Manage-Landing-Page',
+    description: 'Designed and developed the Cepher website using React for an interactive user interface, Contentful as the headless CMS for seamless content management, and Tailwind CSS to create a fully responsive and modern design. ', 
+    projectUrl: 'https://www.cepher.org.ng/',
+    projectSource: 'https://github.com/lamba01/cepher',
   },
   {
     id: 6,
