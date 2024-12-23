@@ -3,7 +3,7 @@ import '../styles/portfolio.css';
 import project1 from '../images/imagehubb.png';
 import project2 from '../images/TaskM.webp';
 import project3 from '../images/project3.jpg';
-import project4 from '../images/project4.jpg';
+import project4 from '../images/project4.png';
 import project5 from '../images/project5.png';
 import project6 from '../images/project6.png';
 import AOS from "aos";
@@ -37,17 +37,17 @@ const projects = [
   },
   {
     id: 4,
-    title: 'Rock, Paper, Scissors', 
+    title: 'nigerian journal of social health', 
     imageSrc: project4,
-    description: 'Developed an engaging Rock-Paper-Scissors game using  plain JavaScript. The game allows users to play against the computer, showcasing a blend of logic and interactivity for an enjoyable gaming experience.', 
+    description: 'Built a user-friendly and responsive platform for the Nigerian Journal of Social Health using OJS, streamlining submission, peer review, and publication workflows for authors and reviewers.', 
     projectUrl: 'https://rpsgamers.netlify.app/',
     projectSource: 'https://github.com/lamba01/RPS',
   },
   {
     id: 5,
-    title: 'cepher official site', 
+    title: "CEPHER's official website", 
     imageSrc: project5,
-    description: 'Designed and developed the Cepher website using React for an interactive user interface, Contentful as the headless CMS for seamless content management, and Tailwind CSS to create a fully responsive and modern design. ', 
+    description: 'Designed and developed the Centre for Population and Health  Research website using React for an interactive user interface, Contentful as the headless CMS for seamless content management, and Tailwind CSS to create a fully responsive and modern design. ', 
     projectUrl: 'https://www.cepher.org.ng/',
     projectSource: 'https://github.com/lamba01/cepher',
   },
@@ -77,15 +77,26 @@ const Portfolio = forwardRef((props, ref) => {
     <section className='port' ref={ref}>
       <h1>Portfolio</h1>
       <div className="portfolio" data-aos="fade-up" data-aos-duration="3000">
-        {projects.map((project) => (
+        {projects.map((project, index) => (
           <div className="project-item" key={project.id} >
             <img src={project.imageSrc} alt={project.title} />
               <div className="description">
-                <h3>{project.title}</h3>
+                <h3 className='title-project'>{project.title}</h3>
                 <p className='desc'>{project.description}</p>
                 <div className="btns">
                 <button className='live-btn' onClick={() => handleClick(project.projectUrl)}>🔗 live site</button>
-                <button className='live-btn2' onClick={() => handleSource(project.projectSource)}><FaGithub style={{marginRight: '5px'}}/> view source code</button></div>
+                {index !== 3 ? (
+                  // Assuming 4th project is at index 3
+                  <button className="live-btn2" onClick={() => handleSource(project.projectSource)}>
+                    <FaGithub style={{ marginRight: '5px' }} /> view source code
+                  </button>
+                ) : (
+                  <button className="live-btn3" disabled>
+                    <FaGithub style={{ marginRight: '5px' }} /> view source code
+                  </button>
+                )}
+                {/* <button className='live-btn2' onClick={() => handleSource(project.projectSource)}><FaGithub style={{marginRight: '5px'}}/> view source code</button> */}
+                </div>
             </div>
           </div>
         ))}

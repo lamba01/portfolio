@@ -5,7 +5,7 @@ import "../styles/footer.css";
 function Footer(){
   return (
     <footer>
-      <p>&copy; 2023. Developed by John. All rights reserved</p>
+      <p>&copy; 2024. Developed by John. All rights reserved</p>
       </footer>
   );
 }

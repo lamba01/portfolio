@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {MdDownloading} from "react-icons/md"
 import "../styles/download.css";
-import CV from "../Assets/John's Resume.pdf"
+import CV from "../Assets/John's CV.pdf"
 
 
 function DownloadButton() {
