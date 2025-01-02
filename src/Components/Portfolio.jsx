@@ -45,7 +45,7 @@ const projects = [
   },
   {
     id: 5,
-    title: "CEPHER's official website", 
+    title: "CEPHER website", 
     imageSrc: project5,
     description: 'Designed and developed the Centre for Population and Health  Research website using React for an interactive user interface, Contentful as the headless CMS for seamless content management, and Tailwind CSS to create a fully responsive and modern design. ', 
     projectUrl: 'https://www.cepher.org.ng/',
@@ -53,7 +53,7 @@ const projects = [
   },
   {
     id: 6,
-    title: 'E-Commerce Site', 
+    title: 'Shop-Ease', 
     imageSrc: project6,
     description: 'This Project integrates user-friendly interfaces with powerful server-side functionalities. Users are welcomed to a world where seamless navigation, captivating product displays, and checkout processes redefine the standards of online shopping.', 
     projectUrl: 'https://commeercee.vercel.app',
