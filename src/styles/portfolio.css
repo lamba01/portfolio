@@ -17,19 +17,20 @@
   flex-direction: column;
   overflow: hidden;
   width: 300px; /* Adjust the width and height as needed */
-  height: 350px;
+  height: 20rem;
   background-color: black;
   position: relative;
 }
 .project-item img {
   width: 100%;
-  height: 40%;
+  height: 50%;
   transition: transform 0.3s;
 }
 .project-item .description {
   color: #ffffff;
   text-align: center;
   padding: 5px;
+  height: 40%;
 }
 .desc {
   font-size: 12px;
@@ -60,7 +61,8 @@
   bottom: 10px;
   text-align: center;
 }
-.live-btn2, .live-btn3 {
+.live-btn2,
+.live-btn3 {
   right: 0;
 }
 .live-btn:hover,
@@ -82,6 +84,7 @@
 }
 .title-project {
   text-transform: capitalize;
+  padding: 10px 0px;
 }
 @media only screen and (max-width: 1024px) and (min-height: 800px) {
   .portfolio {

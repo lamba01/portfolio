@@ -69,6 +69,17 @@
   flex-direction: row;
   white-space: nowrap;
 }
+.download-btn2 {
+  margin-top: 20px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.download-btn2:hover {
+  background-color: #007bff;
+  color: white;
+}
 @media only screen and (max-device-width: 1024px) and (min-height: 601px) {
   .hero {
     height: 40vh;
