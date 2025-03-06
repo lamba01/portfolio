@@ -17,7 +17,7 @@
   flex-direction: column;
   overflow: hidden;
   width: 300px; /* Adjust the width and height as needed */
-  height: 20rem;
+  height: 23rem;
   background-color: black;
   position: relative;
 }
@@ -30,7 +30,7 @@
   color: #ffffff;
   text-align: center;
   padding: 5px;
-  height: 40%;
+  height: 50%;
 }
 .desc {
   font-size: 12px;
@@ -101,5 +101,14 @@
   .portfolio {
     align-items: center;
     justify-content: center;
+  }
+  .project-item {
+    height: 20rem;
+  }
+  .project-item .description {
+    height: 60%;
+  }
+  .project-item img {
+    height: 40%;
   }
 }
