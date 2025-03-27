@@ -19,6 +19,15 @@ import project9 from "../images/screenshot.png";
 const projects = [
   {
     id: 1,
+    title: "Nigerian Journal of Social Health",
+    imageSrc: project4,
+    description:
+      "Developed a submission and review system using OJS (PHP-based) for an academic journal.",
+    projectUrl: "https://njsh.org.ng/index.php/njsh-journal",
+    projectSource: null, // No GitHub link
+  },
+  {
+    id: 3,
     title: "ImageHub",
     imageSrc: project1,
     description:
@@ -36,7 +45,7 @@ const projects = [
     projectSource: "https://github.com/lamba01/Task-Management-App",
   },
   {
-    id: 3,
+    id: 6,
     title: "EasyBank Landing Page",
     imageSrc: project3,
     description:
@@ -44,41 +53,24 @@ const projects = [
     projectUrl: "https://easybank-landings-pages.vercel.app/",
     projectSource: "https://github.com/lamba01/Easybank-landing-page",
   },
-  {
-    id: 4,
-    title: "Nigerian Journal of Social Health",
-    imageSrc: project4,
-    description:
-      "Developed a submission and review system using OJS (PHP-based) for an academic journal.",
-    projectUrl: "https://rpsgamers.netlify.app/",
-    projectSource: null, // No GitHub link
-  },
+
   {
     id: 5,
     title: "CEPHER Website",
     imageSrc: project5,
     description:
-      "A React and Contentful-powered website for the Centre for Population and Health Research, featuring a modern UI.",
+      "A React and Contentful-powered website for the Centre for Population and Health Research(CEPHER), featuring a modern UI.",
     projectUrl: "https://www.cepher.org.ng/",
     projectSource: "https://github.com/lamba01/cepher",
   },
   {
-    id: 6,
+    id: 4,
     title: "Shop-Ease eCommerce",
     imageSrc: project6,
     description:
       "An intuitive online store with seamless navigation, product displays, and checkout process. Built with React, CSS, Node.js, Express and MySQL",
     projectUrl: "https://commeercee.vercel.app",
     projectSource: "https://github.com/lamba01/App",
-  },
-  {
-    id: 7,
-    title: "Rock, Paper, Scissors Game",
-    imageSrc: rps,
-    description:
-      "A simple, interactive Rock Paper Scissors game built with Vanilla JavaScript.",
-    projectUrl: "https://rpsgamers.netlify.app",
-    projectSource: "https://github.com/lamba01/RPS",
   },
   {
     id: 8,
@@ -88,6 +80,15 @@ const projects = [
       "A full-stack scheduling system with JWT authentication, real-time bookings, and an admin dashboard. Developed using MERN Stack",
     projectUrl: "https://airbox-asessment.vercel.app",
     projectSource: "https://github.com/lamba01/Airbox-Asessment",
+  },
+  {
+    id: 7,
+    title: "Rock, Paper, Scissors Game",
+    imageSrc: rps,
+    description:
+      "A simple, interactive Rock Paper Scissors game built with Vanilla JavaScript.",
+    projectUrl: "https://rpsgamers.netlify.app",
+    projectSource: "https://github.com/lamba01/RPS",
   },
   {
     id: 9,
